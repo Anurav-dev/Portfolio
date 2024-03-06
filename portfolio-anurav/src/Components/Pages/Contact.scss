@@ -1,0 +1,27 @@
+.contact-container {
+    // background-color: red;
+    padding: 10% 15%;
+
+    .heading {
+        color: #147efb;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .sub-heading {
+        margin: 10px 0px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .contact-info-location {}
+
+        .contact-info-mail {}
+    }
+
+}

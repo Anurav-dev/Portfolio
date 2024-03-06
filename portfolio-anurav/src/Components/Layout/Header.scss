@@ -1,0 +1,32 @@
+.header-container {
+    padding: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .name-header {
+        font-weight: 800;
+        font-size: 22px;
+        margin: 0px 20px;
+    }
+
+    .sections-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 20px;
+
+        .section {
+            font-weight: 700;
+            font-size: 18px;
+            margin: 0px 16px;
+
+            &:hover {
+                cursor: pointer;
+                color: #147efb;
+            }
+        }
+    }
+}
