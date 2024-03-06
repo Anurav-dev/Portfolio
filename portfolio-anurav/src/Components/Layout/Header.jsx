@@ -25,7 +25,7 @@ const Header = () => {
                     </div>
                     <div className="section">
                         <a>
-                            Contract
+                            Contact
                         </a>
                     </div>
                 </div>

@@ -1,0 +1,27 @@
+.footer-container {
+    background-color: #000;
+    padding: 5% 10%;
+    max-height: 15vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-text {
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0px 10%;
+    }
+
+    .footer-icons-container {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 10%;
+
+        div {
+            margin: 0px 10px;
+        }
+    }
+}

@@ -1,4 +1,6 @@
 import "./Contact.scss"
+import { ReactComponent as LocationIcon } from '../../Constants/Icons/address-icon.svg';
+import { ReactComponent as MailIcon } from '../../Constants/Icons/mail-icon.svg';
 
 const Contact = () => {
     return (
@@ -12,24 +14,24 @@ const Contact = () => {
                 </div>
                 <div className="contact-info">
                     <div className="contact-info-location">
-                        <div>
+                        <div className="contact-info-container">
                             <div className="contact-info-icon">
-
+                                <LocationIcon />
                             </div>
                             <div className="contact-info-details">
-                                Location <br />
-                                Bangalore,KA
+                                <span>Location</span><br />
+                                Bangalore, INDIA
                             </div>
                         </div>
                     </div>
 
                     <div className="contact-info-mail">
-                        <div>
+                        <div className="contact-info-container">
                             <div className="contact-info-icon">
-
+                                <MailIcon />
                             </div>
                             <div className="contact-info-details">
-                                Mail <br />
+                                <span>Mail</span><br />
                                 anuravgupta22@gmail.com
                             </div>
                         </div>
